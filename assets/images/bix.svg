@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="196px" viewBox="0 0 196 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>bix</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bix" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(9.000000, 0.000000)" fill="#000000">
+            <path d="M89.5,12.3094011 L13.9907264,55.9047005 L13.9907264,143.095299 L89.5,186.690599 L165.009274,143.095299 L165.009274,55.9047005 L89.5,12.3094011 Z M169.009274,53.5952995 L169.009274,145.404701 L89.5,191.309401 L9.99072636,145.404701 L9.99072636,53.5952995 L89.5,7.69059892 L169.009274,53.5952995 Z" id="Polygon" fill-rule="nonzero"></path>
+            <path d="M16,143.75 L89.5092736,186.190599 L163.018547,143.75 L89.5092736,101.309401 L16,143.75 Z M171.018547,143.75 L89.5092736,190.809401 L8,143.75 L89.5092736,96.6905989 L171.018547,143.75 Z" id="Polygon-Copy" fill-rule="nonzero"></path>
+            <polygon id="Line" fill-rule="nonzero" points="87.5092736 8 91.5092736 8 91.5092736 101 87.5092736 101"></polygon>
+            <circle id="Oval" cx="90" cy="100" r="13"></circle>
+            <circle id="Oval-Copy-4" cx="90" cy="11" r="11"></circle>
+            <circle id="Oval-Copy" cx="90" cy="185" r="11"></circle>
+            <circle id="Oval-Copy-2" cx="166" cy="143" r="11"></circle>
+            <circle id="Oval-Copy-5" cx="166" cy="55" r="11"></circle>
+            <circle id="Oval-Copy-3" cx="12" cy="143" r="11"></circle>
+            <circle id="Oval-Copy-6" cx="12" cy="55" r="11"></circle>
+        </g>
+    </g>
+</svg>

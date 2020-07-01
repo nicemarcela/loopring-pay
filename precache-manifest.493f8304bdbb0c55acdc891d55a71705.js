@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a067c41e5783d7cf6e5fbbae45fb949",
+    "revision": "2f1d1c8f04fa950382e78d68fa3847ba",
     "url": "/Loopring-Pay/index.html"
   },
   {
-    "revision": "f1c693b0b6859d71446c",
+    "revision": "3bba2f15e5b6c437485f",
     "url": "/Loopring-Pay/static/css/main~06837ae4.f24deecd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Loopring-Pay/static/css/main~970f9218.44104477.chunk.css"
   },
   {
-    "revision": "f1c693b0b6859d71446c",
-    "url": "/Loopring-Pay/static/js/main~06837ae4.6565def9.chunk.js"
+    "revision": "3bba2f15e5b6c437485f",
+    "url": "/Loopring-Pay/static/js/main~06837ae4.6f98e7ab.chunk.js"
   },
   {
     "revision": "330185f13607fccc0087",

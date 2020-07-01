@@ -1,8 +1,8 @@
 {
   "files": {
     "main~06837ae4.css": "/Loopring-Pay/static/css/main~06837ae4.f24deecd.chunk.css",
-    "main~06837ae4.js": "/Loopring-Pay/static/js/main~06837ae4.6565def9.chunk.js",
-    "main~06837ae4.js.map": "/Loopring-Pay/static/js/main~06837ae4.6565def9.chunk.js.map",
+    "main~06837ae4.js": "/Loopring-Pay/static/js/main~06837ae4.6f98e7ab.chunk.js",
+    "main~06837ae4.js.map": "/Loopring-Pay/static/js/main~06837ae4.6f98e7ab.chunk.js.map",
     "main~2900d54e.js": "/Loopring-Pay/static/js/main~2900d54e.c2778003.chunk.js",
     "main~2900d54e.js.map": "/Loopring-Pay/static/js/main~2900d54e.c2778003.chunk.js.map",
     "main~7274e1de.js": "/Loopring-Pay/static/js/main~7274e1de.6f4b1789.chunk.js",
@@ -20,7 +20,7 @@
     "runtime-main.js": "/Loopring-Pay/static/js/runtime-main.71c7c974.js",
     "runtime-main.js.map": "/Loopring-Pay/static/js/runtime-main.71c7c974.js.map",
     "index.html": "/Loopring-Pay/index.html",
-    "precache-manifest.3771d682ac6abe22d699b7424e96f71e.js": "/Loopring-Pay/precache-manifest.3771d682ac6abe22d699b7424e96f71e.js",
+    "precache-manifest.493f8304bdbb0c55acdc891d55a71705.js": "/Loopring-Pay/precache-manifest.493f8304bdbb0c55acdc891d55a71705.js",
     "service-worker.js": "/Loopring-Pay/service-worker.js",
     "static/css/main~06837ae4.f24deecd.chunk.css.map": "/Loopring-Pay/static/css/main~06837ae4.f24deecd.chunk.css.map",
     "static/css/main~748942c6.887f6187.chunk.css.map": "/Loopring-Pay/static/css/main~748942c6.887f6187.chunk.css.map",
@@ -42,7 +42,7 @@
     "static/js/main~fdadd360.b3abdd04.chunk.js",
     "static/js/main~2900d54e.c2778003.chunk.js",
     "static/css/main~06837ae4.f24deecd.chunk.css",
-    "static/js/main~06837ae4.6565def9.chunk.js",
+    "static/js/main~06837ae4.6f98e7ab.chunk.js",
     "static/css/main~970f9218.44104477.chunk.css",
     "static/js/main~970f9218.98d1678f.chunk.js"
   ]

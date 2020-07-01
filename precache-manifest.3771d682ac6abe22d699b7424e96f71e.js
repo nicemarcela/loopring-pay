@@ -1,63 +1,63 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b06b35f215de8e633d2e3d344e14fc58",
+    "revision": "2a067c41e5783d7cf6e5fbbae45fb949",
     "url": "/Loopring-Pay/index.html"
   },
   {
-    "revision": "0cf976f6f099adf02251",
+    "revision": "f1c693b0b6859d71446c",
     "url": "/Loopring-Pay/static/css/main~06837ae4.f24deecd.chunk.css"
   },
   {
-    "revision": "196f7fd0e9255daa9a32",
+    "revision": "c9beda8511eeffaf84aa",
     "url": "/Loopring-Pay/static/css/main~748942c6.887f6187.chunk.css"
   },
   {
-    "revision": "00a2e7b3d77e771db21e",
+    "revision": "a3ea42bacabc30e293a0",
     "url": "/Loopring-Pay/static/css/main~970f9218.44104477.chunk.css"
   },
   {
-    "revision": "0cf976f6f099adf02251",
-    "url": "/Loopring-Pay/static/js/main~06837ae4.02fab2b9.chunk.js"
+    "revision": "f1c693b0b6859d71446c",
+    "url": "/Loopring-Pay/static/js/main~06837ae4.6565def9.chunk.js"
   },
   {
-    "revision": "c88b26a7caa0c1f4c316",
-    "url": "/Loopring-Pay/static/js/main~2900d54e.0489a095.chunk.js"
+    "revision": "330185f13607fccc0087",
+    "url": "/Loopring-Pay/static/js/main~2900d54e.c2778003.chunk.js"
   },
   {
-    "revision": "e54b2378be75fba845fb",
-    "url": "/Loopring-Pay/static/js/main~7274e1de.390817ee.chunk.js"
+    "revision": "786c088abc66fddbd63c",
+    "url": "/Loopring-Pay/static/js/main~7274e1de.6f4b1789.chunk.js"
   },
   {
     "revision": "1ae3146c5b710db8640dc5f70c1037ee",
-    "url": "/Loopring-Pay/static/js/main~7274e1de.390817ee.chunk.js.LICENSE.txt"
+    "url": "/Loopring-Pay/static/js/main~7274e1de.6f4b1789.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "196f7fd0e9255daa9a32",
-    "url": "/Loopring-Pay/static/js/main~748942c6.4013d549.chunk.js"
+    "revision": "c9beda8511eeffaf84aa",
+    "url": "/Loopring-Pay/static/js/main~748942c6.00f608d5.chunk.js"
   },
   {
     "revision": "82c075caf1aa89864f814f7eedde10c8",
-    "url": "/Loopring-Pay/static/js/main~748942c6.4013d549.chunk.js.LICENSE.txt"
+    "url": "/Loopring-Pay/static/js/main~748942c6.00f608d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00a2e7b3d77e771db21e",
-    "url": "/Loopring-Pay/static/js/main~970f9218.544763ee.chunk.js"
+    "revision": "a3ea42bacabc30e293a0",
+    "url": "/Loopring-Pay/static/js/main~970f9218.98d1678f.chunk.js"
   },
   {
-    "revision": "d3f5f7b96f94752e92b8",
-    "url": "/Loopring-Pay/static/js/main~b5906859.4a001718.chunk.js"
+    "revision": "9aac9fcc01f3982b4050",
+    "url": "/Loopring-Pay/static/js/main~b5906859.c855a950.chunk.js"
   },
   {
     "revision": "ce149591b1d143e74e69c0f43b7ff82e",
-    "url": "/Loopring-Pay/static/js/main~b5906859.4a001718.chunk.js.LICENSE.txt"
+    "url": "/Loopring-Pay/static/js/main~b5906859.c855a950.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3cdf28490376a9a1da3c",
-    "url": "/Loopring-Pay/static/js/main~fdadd360.3708bad8.chunk.js"
+    "revision": "045fc674cc13ef45f54b",
+    "url": "/Loopring-Pay/static/js/main~fdadd360.b3abdd04.chunk.js"
   },
   {
     "revision": "dac8e254b3ecc234ca0f28fc865690c4",
-    "url": "/Loopring-Pay/static/js/main~fdadd360.3708bad8.chunk.js.LICENSE.txt"
+    "url": "/Loopring-Pay/static/js/main~fdadd360.b3abdd04.chunk.js.LICENSE.txt"
   },
   {
     "revision": "4e0de2894e870fa63a35",

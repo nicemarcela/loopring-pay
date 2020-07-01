@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Loopring-Pay/precache-manifest.58906237e9ecec990c6ed194834d81a8.js"
+  "/Loopring-Pay/precache-manifest.3771d682ac6abe22d699b7424e96f71e.js"
 );
 
 self.addEventListener('message', (event) => {

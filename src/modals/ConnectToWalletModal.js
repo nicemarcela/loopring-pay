@@ -112,7 +112,7 @@ class ConnectToWalletModal extends React.Component {
                   }}
                 >
                   <img
-                    src="/assets/images/MetaMask.svg"
+                    src="assets/images/MetaMask.svg"
                     alt="MetaMask"
                     draggable="false"
                   />
@@ -128,7 +128,7 @@ class ConnectToWalletModal extends React.Component {
                   }}
                 >
                   <img
-                    src="/assets/images/WalletConnect.svg"
+                    src="assets/images/WalletConnect.svg"
                     alt="WalletConnect"
                     draggable="false"
                   />

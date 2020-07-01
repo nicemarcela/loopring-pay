@@ -12,7 +12,7 @@ const TableLoadingSpin = ({ children, loading }) => {
       indicator={
         <img
           alt="loading..."
-          src={`/assets/images/${theme.imgDir}/bars.svg`}
+          src={`assets/images/${theme.imgDir}/bars.svg`}
           style={{
             marginTop: "100px",
             height: "40px",

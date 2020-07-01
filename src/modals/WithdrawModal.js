@@ -360,7 +360,7 @@ class WithdrawModal extends React.Component {
           ]}
           imageUrl={
             getWalletType() === "MetaMask"
-              ? `/assets/images/${theme.imgDir}/metamask_pending.png`
+              ? `assets/images/${theme.imgDir}/metamask_pending.png`
               : ``
           }
           marginTop="60px"
@@ -555,7 +555,7 @@ class WithdrawModal extends React.Component {
                   <div className="vh-100 p-4">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        <img className="img-fluid mb-4" src="/assets/images/logo.svg" alt="" width="64"/>
+                        <img className="img-fluid mb-4" src="assets/images/logo.svg" alt="" width="64"/>
                         <h5 className="header-pretitle text-white mb-4">Everyday benefits</h5>
                         <div className="row mb-4">
                           <div className="col-auto">

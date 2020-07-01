@@ -1,4 +1,5 @@
 {
+  "homepage": "http://nicemarcela.github.io/Loopring-Pay",
   "name": "LoopringExchange",
   "version": "0.2.0",
   "private": true,
@@ -71,11 +72,12 @@
     "web3": "^1.2.6"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server.js",
     "dev": "react-app-rewired start",
-    "build": "CI=false && rimraf ./build && react-app-rewired --max-old-space-size=3096 build && rimraf ./build/**/*.map",
+    "build": "rimraf ./build && react-app-rewired --max-old-space-size=3096 build && rimraf ./build/**/*.map",
     "test": "CI=true && react-app-rewired test --coverage",
-    "ci": "CI=false && react-app-rewired --max-old-space-size=3096 build",
     "eject": "react-scripts eject",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "format": "prettier --write 'src/**/*.{js,jsx,css,scss,less}'",

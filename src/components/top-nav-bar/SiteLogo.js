@@ -36,7 +36,7 @@ class SiteLogo extends React.Component {
       >
         <div>
           <img
-            src="/assets/images/logo.svg"
+            src="assets/images/logo.svg"
             alt="Loopring"
             draggable="false"
             style={{

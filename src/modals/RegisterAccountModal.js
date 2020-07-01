@@ -355,7 +355,7 @@ class RegisterAccountModal extends React.Component {
         ]}
         imageUrl={
           getWalletType() === "MetaMask"
-            ? `/assets/images/${theme.imgDir}/metamask_pending.png`
+            ? `assets/images/${theme.imgDir}/metamask_pending.png`
             : ""
         }
         marginTop="60px"
@@ -377,73 +377,186 @@ class RegisterAccountModal extends React.Component {
     return (
       <MyModal
         centered
-        style={{ top: 40 }}
-        width={AppLayout.modalWidth}
-        title={<TextPopupTitle>{this.title}</TextPopupTitle>}
+        width="100%"
         footer={null}
         maskClosable={false}
-        closeIcon={<FontAwesomeIcon icon={faTimes} />}
+        closable={false}
         visible={this.props.isVisible}
         onCancel={() => this.onClose()}
-        maxHeight={this.state.loading ? '500px' : 'unset'}
+        bodyStyle={{
+          padding: "0"
+        }}
+        
+
       >
         <Spin indicator={indicator} spinning={this.state.loading}>
           {indicatorPlaceholder}
-          <Section>{this.getInstructions()}</Section>
-          <Section>
-            {this.state.isRegister && (
-              <div
-                style={{
-                  paddingTop: "12px",
-                  marginTop: "18px",
-                }}
-              >
-                <Group label={<I s="Referral ID / Promotion Code" />}>
-                  <Input
-                    suffix={<span />}
-                    style={{
-                      color: theme.textWhite,
-                    }}
-                    value={
-                      this.state.referrer
-                        ? this.state.referrer.toUpperCase()
-                        : this.state.referrer
-                    }
-                    onChange={this.onReferrerValueChange}
-                    disabled={this.state.isInvited}
-                  />
-                </Group>
-              </div>
-            )}
-          </Section>
-          {this.props.showLoginModal &&
-          this.props.dexAccount.account.state !== "LOGGED_IN" ? (
-            <Section>
-              <Group>
-                <div style={{ height: "20px" }}>
-                  <a
-                    onClick={() => {
-                      this.props.closeModal();
-                      this.props.showLoginModal();
-                    }}
-                    style={{
-                      float: "right",
-                    }}
-                  >
-                    <I s="Try to login again?" />
-                  </a>
-                </div>
-              </Group>
-            </Section>
-          ) : (
-            <span />
-          )}
+          <div className="modal-dialog modal-dialog-vertical" role="document">
+            <div className="modal-content">
+              <div className="modal-body p-lg-0">
+                <div className="d-inline-block w-lg-60 vh-100">
+                  <button className="btn btn-link text-dark position-absolute mt-n4 ml-n4 ml-lg-0 mt-lg-0" type="button" name="button" data-dismiss="modal" aria-label="Close" onClick={() => this.onClose()}>
+                    <i className="fe fe-arrow-left h2"></i>
+                  </button>
+                  <div className="row justify-content-center">
+                    <div className="col col-lg-8">
+                      <h1 className="display-4 text-center my-5">
+                        Register account
+                      </h1>
+                      <p class="text-secondary text-center mb-4">
+                        In order to use our services, you need first to tie your Ethereum address to Loopring Pay by signing a message and approving a transaction.
+                      </p>
+                      <div className="card mb-5">
+                        <div className="card-body">
+                          <div className="form-group">
+                            {this.state.isRegister && (
+                            <div>
+                              <Group label={<I s="Referral ID / Promotion Code" />}>
+                                <Input
+                                  suffix={<span />}
+                                  style={{
+                                    color: theme.textWhite,
+                                  }}
+                                  value={
+                                    this.state.referrer
+                                      ? this.state.referrer.toUpperCase()
+                                      : this.state.referrer
+                                  }
+                                  onChange={this.onReferrerValueChange}
+                                  disabled={this.state.isInvited}
+                                />
+                              </Group>
+                            </div>
+                            )}
+                            {this.props.showLoginModal &&
+                            this.props.dexAccount.account.state !== "LOGGED_IN" ? (
+                              <Group>
+                              <div style={{ height: "20px" }}>
+                                <a
+                                  onClick={() => {
+                                    this.props.closeModal();
+                                    this.props.showLoginModal();
+                                  }}
+                                  style={{
+                                    float: "right",
+                                  }}
+                                >
+                                  <I s="Try to login again?" />
+                                </a>
+                              </div>
+                            </Group>
+                            ) : (
+                              <span />
+                            )}
+                          </div>
+                          <button 
+                          type="button"
+                          name="Register account"
+                          className="btn btn-primary btn-lg btn-block"
+                          onClick={() => this.onProceed()}
+                          >
+                            Register account
+                          </button>
+          
+                        </div>
+                      </div>
+                      <div className="d-block d-lg-none">
+                        <h5 className="header-pretitle mb-4">NOTES</h5>
+                        <div className="row mb-4">
+                          <div className="col-auto">
 
-          <Section>
-            <ActionButton onClick={() => this.onProceed()}>
-              {this.buttonLabel}
-            </ActionButton>
-          </Section>
+                            <div className="btn btn-rounded-circle badge-soft-primary">
+                            💰
+                            </div>
+
+                          </div>
+                          <div className="col ml-n2">
+                            <h2 className="card-title mb-2">
+                            Adding money
+                            </h2>
+
+                            <p className="card-text mb-1">
+                            You can make deposits while your account registration request is still being processed.
+                            </p>
+
+                          </div>
+                        </div>
+                        <div className="row mb-4">
+                          <div className="col-auto">
+
+                            <div className="btn btn-rounded-circle badge-soft-primary">
+                            💸
+                            </div>
+
+                          </div>
+                          <div className="col ml-n2">
+                            <h2 className="card-title mb-2">
+                            Sending & withdrawing money
+                            </h2>
+
+                            <p className="card-text mb-1">
+                            Sending and withdrawing money will only be available after your account has been registered. We need 30 confirmations for your Ethereum transactions to process your requests.
+                            </p>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-lg-inline-block w-lg-40 position-fixed d-none bg-primary">
+                  <div className="vh-100 p-4">
+                    <div className="row justify-content-center">
+                      <div className="col-10">
+                        <img className="img-fluid mb-4" src="assets/images/logo.svg" alt="" width="64"/>
+                        <h5 className="header-pretitle text-white mb-4">NOTES</h5>
+                        <div className="row mb-4">
+                          <div className="col-auto">
+
+                            <div className="btn btn-rounded-circle badge-soft-primary">
+                            💰
+                            </div>
+
+                          </div>
+                          <div className="col ml-n2">
+                            <h2 className="card-title mb-2 text-white">
+                            Adding money
+                            </h2>
+
+                            <p className="card-text text-white mb-1">
+                            You can make deposits while your account registration request is still being processed.
+                            </p>
+
+                          </div>
+                        </div>
+                        <div className="row mb-4">
+                          <div className="col-auto">
+
+                            <div className="btn btn-rounded-circle badge-soft-primary">
+                            💸
+                            </div>
+
+                          </div>
+                          <div className="col ml-n2">
+                            <h2 className="card-title mb-2 text-white">
+                            Sending & withdrawing money
+                            </h2>
+
+                            <p className="card-text text-white mb-1">
+                            Sending and withdrawing money will only be available after your account has been registered. We need 30 confirmations for your Ethereum transactions to process your requests.
+                            </p>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+          
         </Spin>
       </MyModal>
     );

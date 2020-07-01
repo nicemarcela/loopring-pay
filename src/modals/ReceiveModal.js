@@ -611,7 +611,7 @@ class ReceiveModal extends React.Component {
           tips={tips}
           imageUrl={
             getWalletType() === "MetaMask"
-              ? `/assets/images/${theme.imgDir}/metamask_pending.png`
+              ? `assets/images/${theme.imgDir}/metamask_pending.png`
               : ``
           }
           marginTop="60px"
@@ -660,16 +660,7 @@ class ReceiveModal extends React.Component {
             <div className="card mb-5" style={{display: isWalletConnectLoading ? "none" : "block",}}>
               <div className="card-body">
                 <div className="form-group">
-                <Group label={<I s="Amount" />}>
-                    <div className="justify-content-center">
-                        <img className="d-block mb-4 mx-auto" src="@@webRoot/assets/img/qr-code.svg" alt="" width="200"/>
-                            <h6 className="text-uppercase text-center mb-4 d-block text-truncate mx-auto" style="max-width: 200px;">
-                              0x52B7840b735D518d3898dE30a5FFd8550e62B660
-                            </h6>
-                    </div>
-                    <a className="btn btn-primary btn-lg btn-block" href="#">Copy or share address</a>
-                  
-                </Group>
+
                 {selectedTokenSymbol.toUpperCase() === 'RENBTC' &&
                     <a href='https://bridge.renproject.io/'
                       target='_blank'>Mint renBTC with BTC</a>}
@@ -745,7 +736,7 @@ class ReceiveModal extends React.Component {
                   <div className="vh-100 p-4">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        <img className="img-fluid mb-4" src="/assets/images/logo.svg" alt="" width="64"/>
+                        <img className="img-fluid mb-4" src="assets/images/logo.svg" alt="" width="64"/>
                         <h5 className="header-pretitle text-white mb-4">Everyday benefits</h5>
                         <div className="row mb-4">
                           <div className="col-auto">

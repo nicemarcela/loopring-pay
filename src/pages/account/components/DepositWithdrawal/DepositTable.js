@@ -122,7 +122,7 @@ class DepositTable extends React.Component {
           </span>
         ),
         icon: (
-          <Avatar src={`/assets/images/${transaction.symbol}.svg`} />
+          <Avatar src={`assets/images/${transaction.symbol}.svg`} />
         ),
         amount: (
           <span>

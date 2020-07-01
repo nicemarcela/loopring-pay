@@ -30,7 +30,7 @@ const EmptyTableIndicator = ({ text, ...props }) => {
           userSelect: "none",
           opacity: "1",
         }}
-        src={`/assets/images/${theme.imgDir}/no-data.svg`}
+        src={`assets/images/${theme.imgDir}/no-data.svg`}
         alt="No Data"
         draggable="false"
       />

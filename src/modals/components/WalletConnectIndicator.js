@@ -29,7 +29,7 @@ const WalletConnectIndicator = () => {
               marginTop: "16px",
               filter: "drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)",
             }}
-            src="/assets/images/WalletConnect.svg"
+            src="assets/images/WalletConnect.svg"
           />
         </div>
       </Col>

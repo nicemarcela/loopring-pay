@@ -36,7 +36,7 @@ class MaintenanceModal extends React.Component {
                 userSelect: "none",
               }}
               alt="maintaince"
-              src={`/assets/images/${theme.imgDir}/maintain.svg`}
+              src={`assets/images/${theme.imgDir}/maintain.svg`}
             />
             <Instruction
               style={{

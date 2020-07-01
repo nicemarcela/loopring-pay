@@ -1,14 +1,21 @@
-# Loopring Pay web application - Send digital currencies faster and for free
+# Loopring Pay - Send digital currencies faster and for free
 
-- Website: [loopring.io](https://loopring.io)
+Frontend of the zkRollup Payment Protocol of Loopring on Ethereum Mainnet.
 
-Secure
+- Try it: [Mainnet demo](nicemarcela.github.io/loopring-pay/)
+
+# Everyday benefits of using Loopring Pay
+
+## Secure
+
 Like on Ethereum, enjoy 100% non-custodial transactions.
 
-Fast
+## Fast
+
 No more waiting, your transactions are lightning fast.
 
-Free
+## Free
+
 A transaction on Loopring Pay is completly free and doesn't require to pay gas fees.
 
 # Quickstart

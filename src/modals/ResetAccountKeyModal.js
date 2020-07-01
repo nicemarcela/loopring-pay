@@ -283,7 +283,7 @@ class ResetAccountKeyModal extends React.Component {
         ]}
         imageUrl={
           getWalletType() === "MetaMask"
-            ? `/assets/images/${theme.imgDir}/metamask_pending.png`
+            ? `assets/images/${theme.imgDir}/metamask_pending.png`
             : ""
         }
         marginTop="60px"

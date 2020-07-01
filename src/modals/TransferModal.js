@@ -581,7 +581,7 @@ class TransferModal extends React.Component {
           tips={tips}
           imageUrl={
             getWalletType() === "MetaMask"
-              ? `/assets/images/${theme.imgDir}/metamask_pending.png`
+              ? `assets/images/${theme.imgDir}/metamask_pending.png`
               : ``
           }
           marginTop="80px"
@@ -744,48 +744,9 @@ class TransferModal extends React.Component {
                           </Section>
                           </div>
 
-
-          
                         </div>
                       </div>
-                      <Instruction>
-                        <I s="TransferInstruction_1" />
-                      </Instruction>
-
-                      <Instruction>
-                        <I s="TransferInstruction_2" />{" "}
-                        <CopyToClipboard text={referralLink}>
-                          <a
-                            onClick={() => {
-                              notifySuccess(<I s="CopyReferralLink" />, this.props.theme);
-                            }}
-                          >
-                            {referralLink}
-                          </a>
-                        </CopyToClipboard>
-                        <I s="TransferInstruction_2_end" />
-                        {this.props.userPreferences.language !== "zh" && (
-                          <WhyIcon
-                            text="ReferralLinkInstruction"
-                            description="ReferralLinkInstructionDescription"
-                          />
-                        )}
-                      </Instruction>
-
-                      <span>
-                        {!!this.state.amountF && Number(this.state.amountF) !== 0 ? (
-                          <span className="mb-4 d-block">
-                            <I s="TransferInstruction_Fee_1" />{" "}
-                            {this.state.amountF ? this.state.amountF : "-"}{" "}
-                            {selectedTokenSymbol}
-                            <I s="TransferInstruction_Fee_2" />
-                          </span>
-                        ) : (
-                          <span className="mb-6 d-block">
-                            <I s="TransferInstruction_Fee_3" />
-                          </span>
-                        )}
-                      </span>
+                      
                       <div className="d-block d-lg-none">
                         <h5 className="header-pretitle mb-4 text-secondary">Everyday benefits</h5>
                         <div className="row mb-4">
@@ -853,7 +814,7 @@ class TransferModal extends React.Component {
                   <div className="vh-100 p-4">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        <img className="img-fluid mb-4" src="/assets/images/logo.svg" alt="" width="64"/>
+                        <img className="img-fluid mb-4" src="assets/images/logo.svg" alt="" width="64"/>
                         <h5 className="header-pretitle text-white mb-4">Everyday benefits</h5>
                         <div className="row mb-4">
                           <div className="col-auto">

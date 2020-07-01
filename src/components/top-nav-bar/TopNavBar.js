@@ -155,7 +155,7 @@ class TopNavBar extends React.Component {
             <div className="container justify-content-between px-0 px-lg-3">
               <div className="col-auto d-flex align-items-center pl-0">
                 <a className="navbar-brand mr-auto d-flex align-items-center" href="">
-                  <img src="/assets/images/logo.svg" alt="..." className="navbar-brand-img"/>
+                  <img src="assets/images/logo.svg" alt="..." className="navbar-brand-img"/>
                   <span className="text-white ml-2 h2 mb-0">Loopring <span className="badge badge-soft-white text-dark align-top">Pay</span></span>
                 </a>
               </div>

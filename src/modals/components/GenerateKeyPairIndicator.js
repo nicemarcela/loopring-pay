@@ -18,7 +18,7 @@ class GenerateKeyPairIndicator extends React.Component {
               <I s={"metaMaskPendingTxTip"} />
             </div>,
           ]}
-          imageUrl={`/assets/images/${this.props.theme.imgDir}/metamask_pending.png`}
+          imageUrl={`assets/images/${this.props.theme.imgDir}/metamask_pending.png`}
           marginTop="60px"
           textAlign={"left"}
         />

@@ -109,15 +109,15 @@ class MarketSelector extends React.Component {
     const { theme } = this.props;
     var path;
     if (token.symbol === "ETH") {
-      return "url(/assets/images/ETH.png)";
+      return "url(assets/images/ETH.png)";
     } else if (token.symbol === "LRC") {
-      return "url(/assets/images/LRC.png)";
+      return "url(assets/images/LRC.png)";
     } else if (token.symbol === "KEEP") {
-      return `url("/assets/images/${theme.imgDir}/KEEP.png")`;
+      return `url("assets/images/${theme.imgDir}/KEEP.png")`;
     } else if (token.symbol.toUpperCase() === "TBTC") {
-      return `url("/assets/images/TBTC.png")`;
+      return `url("assets/images/TBTC.png")`;
     } else {
-      return "url(/assets/images/ETH.png)";
+      return "url(assets/images/ETH.png)";
     }
   }
 

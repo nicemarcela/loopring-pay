@@ -26,7 +26,7 @@ i18n
           store: window.localStorage,
         },
         {
-          loadPath: "/assets/i18n/{{ns}}/{{lng}}.json",
+          loadPath: "assets/i18n/{{ns}}/{{lng}}.json",
         },
       ],
     },

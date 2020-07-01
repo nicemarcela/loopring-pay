@@ -1,8 +1,8 @@
 {
   "files": {
     "main~06837ae4.css": "/loopring-pay/static/css/main~06837ae4.bcfeb449.chunk.css",
-    "main~06837ae4.js": "/loopring-pay/static/js/main~06837ae4.c2506ff9.chunk.js",
-    "main~06837ae4.js.map": "/loopring-pay/static/js/main~06837ae4.c2506ff9.chunk.js.map",
+    "main~06837ae4.js": "/loopring-pay/static/js/main~06837ae4.e288de58.chunk.js",
+    "main~06837ae4.js.map": "/loopring-pay/static/js/main~06837ae4.e288de58.chunk.js.map",
     "main~2900d54e.js": "/loopring-pay/static/js/main~2900d54e.c2778003.chunk.js",
     "main~2900d54e.js.map": "/loopring-pay/static/js/main~2900d54e.c2778003.chunk.js.map",
     "main~7274e1de.js": "/loopring-pay/static/js/main~7274e1de.6f4b1789.chunk.js",
@@ -11,8 +11,8 @@
     "main~748942c6.js": "/loopring-pay/static/js/main~748942c6.5704b1dc.chunk.js",
     "main~748942c6.js.map": "/loopring-pay/static/js/main~748942c6.5704b1dc.chunk.js.map",
     "main~970f9218.css": "/loopring-pay/static/css/main~970f9218.44104477.chunk.css",
-    "main~970f9218.js": "/loopring-pay/static/js/main~970f9218.3fd4384f.chunk.js",
-    "main~970f9218.js.map": "/loopring-pay/static/js/main~970f9218.3fd4384f.chunk.js.map",
+    "main~970f9218.js": "/loopring-pay/static/js/main~970f9218.58af1805.chunk.js",
+    "main~970f9218.js.map": "/loopring-pay/static/js/main~970f9218.58af1805.chunk.js.map",
     "main~b5906859.js": "/loopring-pay/static/js/main~b5906859.c855a950.chunk.js",
     "main~b5906859.js.map": "/loopring-pay/static/js/main~b5906859.c855a950.chunk.js.map",
     "main~fdadd360.js": "/loopring-pay/static/js/main~fdadd360.9d4a7327.chunk.js",
@@ -20,7 +20,7 @@
     "runtime-main.js": "/loopring-pay/static/js/runtime-main.2975611c.js",
     "runtime-main.js.map": "/loopring-pay/static/js/runtime-main.2975611c.js.map",
     "index.html": "/loopring-pay/index.html",
-    "precache-manifest.881879c9006c67ce930e4ed888bd8c44.js": "/loopring-pay/precache-manifest.881879c9006c67ce930e4ed888bd8c44.js",
+    "precache-manifest.f1f2d6779a29d75a05847184435795cf.js": "/loopring-pay/precache-manifest.f1f2d6779a29d75a05847184435795cf.js",
     "service-worker.js": "/loopring-pay/service-worker.js",
     "static/css/main~06837ae4.bcfeb449.chunk.css.map": "/loopring-pay/static/css/main~06837ae4.bcfeb449.chunk.css.map",
     "static/css/main~748942c6.887f6187.chunk.css.map": "/loopring-pay/static/css/main~748942c6.887f6187.chunk.css.map",
@@ -42,8 +42,8 @@
     "static/js/main~fdadd360.9d4a7327.chunk.js",
     "static/js/main~2900d54e.c2778003.chunk.js",
     "static/css/main~06837ae4.bcfeb449.chunk.css",
-    "static/js/main~06837ae4.c2506ff9.chunk.js",
+    "static/js/main~06837ae4.e288de58.chunk.js",
     "static/css/main~970f9218.44104477.chunk.css",
-    "static/js/main~970f9218.3fd4384f.chunk.js"
+    "static/js/main~970f9218.58af1805.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25e73e0e004163ffa3a69b3691090f67",
+    "revision": "7c15d937af3ba321729c02198fd2d894",
     "url": "/loopring-pay/index.html"
   },
   {
-    "revision": "984e882e23923d16dbf9",
+    "revision": "f9e714a287d6ce18dd35",
     "url": "/loopring-pay/static/css/main~06837ae4.bcfeb449.chunk.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loopring-pay/static/css/main~748942c6.887f6187.chunk.css"
   },
   {
-    "revision": "cc5566c314578aa5c7b0",
+    "revision": "ad8d74f76bda8aae344f",
     "url": "/loopring-pay/static/css/main~970f9218.44104477.chunk.css"
   },
   {
-    "revision": "984e882e23923d16dbf9",
-    "url": "/loopring-pay/static/js/main~06837ae4.c2506ff9.chunk.js"
+    "revision": "f9e714a287d6ce18dd35",
+    "url": "/loopring-pay/static/js/main~06837ae4.e288de58.chunk.js"
   },
   {
     "revision": "330185f13607fccc0087",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loopring-pay/static/js/main~748942c6.5704b1dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc5566c314578aa5c7b0",
-    "url": "/loopring-pay/static/js/main~970f9218.3fd4384f.chunk.js"
+    "revision": "ad8d74f76bda8aae344f",
+    "url": "/loopring-pay/static/js/main~970f9218.58af1805.chunk.js"
   },
   {
     "revision": "9aac9fcc01f3982b4050",

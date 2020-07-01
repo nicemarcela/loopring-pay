@@ -2,7 +2,7 @@
 
 Frontend of the zkRollup Payment Protocol of Loopring on Ethereum Mainnet.
 
-- Try it: [Mainnet demo](https://nicemarcela.github.io/Loopring-Pay/)
+- Try it: [Mainnet demo](https://nicemarcela.github.io/loopring-pay/)
 
 # Everyday benefits of using Loopring Pay
 

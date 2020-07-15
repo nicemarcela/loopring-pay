@@ -2,6 +2,8 @@
 
 Frontend of the zkRollup Payment Protocol of Loopring on Ethereum Mainnet.
 
+<img src="preview.png"/>
+
 - Try it: [Mainnet demo](https://nicemarcela.github.io/loopring-pay/)
 
 # Everyday benefits of using Loopring Pay
@@ -41,7 +43,6 @@ A transaction on Loopring Pay is completly free and doesn't require to pay gas f
 - ReactNative, for a mobile and desktop web native wallet
 - Use WalletConnect deeplinks for using it with Argent and other mobile wallets, directly from mobile
 - Integrate with EPNS for notifications (errors, status, etc) also with popups using Blocknative
-- Screenshots
 - manifest.json containing app color
 
 # Quickstart

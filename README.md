@@ -41,6 +41,8 @@ A transaction on Loopring Pay is completly free and doesn't require to pay gas f
 - ReactNative, for a mobile and desktop web native wallet
 - Use WalletConnect deeplinks for using it with Argent and other mobile wallets, directly from mobile
 - Integrate with EPNS for notifications (errors, status, etc) also with popups using Blocknative
+- Screenshots
+- manifest.json containing app color
 
 # Quickstart
 ```

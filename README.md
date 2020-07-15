@@ -28,6 +28,7 @@ A transaction on Loopring Pay is completly free and doesn't require to pay gas f
 - Fully suppports Withdrawals
 - Transactions history: Sent/Received, Deposited, Withdrawn
 - Display the available balance, in USD
+- i18n (en and zh translations)
 - Fully responsive and mobile-first, ressembling the design of most mobile wallets
 
 ## To be implemented:
@@ -35,7 +36,6 @@ A transaction on Loopring Pay is completly free and doesn't require to pay gas f
 - Search bar, and apply filters by type: deposits, withdrawals or transfers; and refresh in case of new transactions
 - Can switch to Goerli testnet
 - Switch between dark and light themes
-- i18n
 - Choose between the fiat supported by Loopring, to show countervalues (EUR, USD, JPY, etc)
 - Progressive Web App (PWA)
 - ReactNative, for a mobile and desktop web native wallet

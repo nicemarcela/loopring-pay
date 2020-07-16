@@ -52,7 +52,7 @@ const routes = (
                     <TabPane tab="Deposited" key="2">
                       <DepositWithdrawalTable type="deposit" />
                     </TabPane>
-                    <TabPane tab="Wihtdrawn" key="3">
+                    <TabPane tab="Withdrawn" key="3">
                       <DepositWithdrawalTable type="withdrawals" />
                     </TabPane>
                   </Tabs>
